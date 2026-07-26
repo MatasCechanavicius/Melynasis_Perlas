@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Webpage Design</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="sidebar">
+      <a href="index.html"
+        ><img class="melynasis-perlas" src="images/home.png" alt="section"
+      /></a>
+
+      <div
+        class="menu-icon"
+        onclick="
+          document.querySelector('.sidebar-links').classList.toggle('active')
+        "
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+      <div class="sidebar-links">
+        <a href="#home">Apie mus</a>
+        <a href="#about">Produkcija</a>
+        <a href="#darbas">Įsidarbinimas</a>
+        <a href="#contact">Kontaktai</a>
+        <a href="galerija.html">Galerija</a>
+      </div>
+      <div class="social-links">
+        <a href="https://www.facebook.com/melynasisperlas "
+          ><img class="facebook" src="images/facebook.svg" alt="section"
+        /></a>
+      </div>
+
+      <div class="navbar"></div>
+    </div>
+
+    <div class="main">
+      <a href="baldai.html">
+        <div class="corner-rectangle">
+        <span class="corner-rectangle-text">Medeinas baldai</span>
+        <img
+          src="furniture_images/logo.jpg"
+          alt="logo"
+          class="corner-rectangle-img"
+        />
+        <span class="bottom-rectangle-text">Mūsų kitas verslas</span>
+      </div>
+      </a>
+      <img class="bg-image" src="images/melynes.jpg" alt="background" />
+      <img
+        class="center-image"
+        src="images/MELYNASIS_PERLAS_LOGOTIPAS.png"
+        alt="center"
+      />
+      <p class="logo-tagline">ŠVIEŽIOS UOGOS IŠ ŪKIO JŪSŲ STALUI!</p>
+    </div>
+  
+    <div class="gradiant-section">
+      <div id="home" class="content home-section">
+        <img class="section-image" src="images/raudon.jpeg" alt="section" />
+        <div class="home-text">
+          <h1>Apie mus</h1>
+          <p>
+            Mėlynasis Perlas yra šeimos ūkis, įsikūręs Š iaulių raj. Toliočių
+            kaime. 2017m pasodinome pirmuosius šilauogių krūmelius. O šiuo metu
+            auginame 2h šilauogių, taip pat avietes ir smidrus. Ši gamtos oazė
+            įsikūrusi tik 2km nuo Šiaulių, tad visus norinčius kviečiame sezono
+            metu pasisiskinti uogų, pabūti gamtoje.
+          </p>
+          <a href="galerija.html"
+            ><button class="gallery-btn">Galerija</button></a
+          >
+        </div>
+      </div>
+
+      <div id="about" class="content home-section">
+        <div class="home-text">
+          <h1>Produkcija</h1>
+          <p>
+            Galite įsigyti 6 veislių desertines šilauoges. Taip pat auginame
+            remontantines avietes ir gegužės-birželio mėn. pjauname smidrų
+            derlių
+          </p>
+        </div>
+        <img class="section-image" src="images/eiles.jpeg" alt="section" />
+      </div>
+      <div id="darbas" class="content home-section">
+        <img class="section-image" src="images/ziema.jpeg" alt="section" />
+        <div class="home-text">
+          <h1>Įsidarbinimas</h1>
+          <p>Kviečiame į savo komandą prisijungti šilauogių skynėjus</p>
+        </div>
+      </div>
+    </div>
+    <div id="contact" class="endbar">
+      <h1>Kontaktai</h1>
+      <p>Ūkininkas: Darius Čechanavičius</p>
+      <p>Ūkininko paž. nr.: 0178000</p>
+      <p>Adresas: Šiaulių raj. Toliočių km.</p>
+      <p>El. paštas: melynasisp@gmail.com</p>
+      <p>Tel. Nr. +370 616 08119, +370 600 82006</p>
+
+      <p>Fb. Mėlynasis perlas</p>
+      <a href="https://www.facebook.com/melynasisperlas "
+        ><img class="facebook-white" src="images/facebook.svg" alt="section"
+      /></a>
+    </div>
+  </body>
+</html>
